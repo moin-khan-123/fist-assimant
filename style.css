@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+.nav-container{
+    height:auto;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo{
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    gap: 30px;
+    margin: 10px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+
+}
+
+.logo1{
+    text-decoration: none;
+}
+
+.nav-bar{
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    background-image: url(logo1.png);
+}
+
+.nav-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page1{
+    height: 50px;
+    width: 200px;
+    background-color: green;
+    margin-top: 30px;
+    color: white;
+    border-radius: 10px;
+    text-transform: uppercase;
+    margin-bottom: 20px
+}
+
+#chacha{
+    height: auto;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: row wrap;
+}
+
+.chache{
+    box-sizing: border-box;
+    height: 334px;
+    width: 214px;
+    background-color: aqua;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+}
+
+.page2{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    padding-bottom: 2px;
+    padding-left: 5%;
+
+}
+
+.rasel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rasel-1{
+        height: 50px;
+        width: 200px;
+        background-color: green;
+        margin-top: 30px;
+        color: white;
+        border-radius: 10px;
+        text-transform: uppercase;
+        margin-bottom: 20px
+}
+
+.footer{
+    height: auto;
+    width: 100vw;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: gray;
+
+}
+
+.footer-text{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-right: 50px;
+}
+
+

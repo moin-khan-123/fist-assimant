@@ -1,211 +1,431 @@
 body{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
-    font-family: 'Gilroy';
+}
+.nav{
+    height: 80px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    
 }
 
-.nav-container{
-    height:auto;
+.nav-1{
+    height: auto;
     width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    top: 50px;
+    list-style-type: none;
+    color: black;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.nav-2{
+    font-size: 30px;
+    font-family:'Gilroy';
+}
+
+/* .nov-2:hover {
+    text-decoration: underline;
+    transition: all 1s;
+    color: red;
+} */
+
+#banner{
+    height: auto;
+    width: 100vw;
+    padding: 60px;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+
+}
+
+.banner1{
+    padding: 0%;
+    font-size: 70px;
+    text-transform: uppercase;
+    margin-bottom: 0%;
+}
+
+.banner4{
+    text-transform: lowercase;
+    font-size: 60px;
+}
+
+.banner2{
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 21%;
+    box-sizing: border-box;
+    /* font-size: 18px; */
+    height: 65px;
+    width: 800px;
+    /* padding: 0px 180px; */
+
+    /* height: 10vh; */
+}
+
+.banner3{
+    padding-bottom: 60px;
+}
+
+.banner5{
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 70px;
+    margin: 0px;
+    position: relative;
+
+}
+
+.banner6{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 70px;
+    padding-left: 30PX;
+}
+
+.banner8{
+    position: absolute;
+    height: auto;
+    width: 80px;
+    top: 23%;
+    text-transform: uppercase;
+    right: 51%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #9a7666;
+
+}
+
+.banner9{
+    position: absolute;
+    padding: 0%;
+    font-size: 70px;
+    text-transform: uppercase;
+    top: 18%;
+    right: 28%;
+}
+
+.banner10{
+    text-transform: lowercase;
+    font-size: 60px;
+
+}
+
+.banner11{
+    position: absolute;
+    right: 28%;
+    top: 38%;
+    height: 170px;
+    width: 400px;
+    text-align: left;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner12{
+    position: absolute;
+    right: 42%;
+    top: 70%;
+    height: 65px;
+    width: 200px;
+    background-color: #9a7666;
+    font-size: 22px;
+    color: white;
+}
+
+.banner13{
+    height: auto;
+    width: 100%;
+    background-color: aqua;
+    padding: 80px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content:flex-end ;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.banner14{
+    height: 30px;
+    width: 10%;
+    background-color: #9a7666;
+    justify-content: end;
+    align-self: flex-end;
+}
+
+.banner15{
+    height: 60px;
+    width: 20%;
+    background-color: blue;
+    align-self: flex-end;
+    justify-content: end;
+}
+
+.banner20{
+    height: 770px;
+    width: 100%;
+    padding: 70px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.banner25{
+    right: 0%;
+    position: absolute;
+    padding: 70px;
+    padding-top: 0%;
+}
+
+.banner21{
+    position: absolute;
+    bottom: 80%;
+    right: 59.5%;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner22{
+    position: absolute;
+    bottom: 69%;
+    right: 40%;
+    font-size: 70px;
+}
+
+.banner23{
+    position: absolute;
+    bottom: 45.5%;
+    right: 40%;
+    padding-left: 37%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner24{
+    position: absolute;
+    bottom: 33%;
+    left: 37%;
+    height: 60px;
+    width: 200px;
+    background-color: #9a7666;
+    font-size: 22px;
+    color: white;
+}
+
+.banner26{
+    height: 700px;
+    width: 100vw;
+    padding: 150px 250px;
+    box-sizing: border-box;
+    font-size: 55px;
+    text-align: center;
+    background-color: rgb(223, 218, 218);
+
+}
+
+.banner28{
+    font-size: 40px;
+}
+
+/* .banner29{
+    transform: rotate(45deg);
+} */
+
+.banner31{
+    text-align: center;
+    height: 770px;
+    width: 100%;
+    box-sizing: border-box;
+    gap: 50px;
+    padding: 70px;
+    /* display: flex;
+    justify-content: center;
+    align-content: center; */
+}
+
+
+
+.banner30{
+        /* display: flex;
+        justify-content: center;
+        align-content: center;
+        padding: 70px;
+        /* gap:50px ; */
+        box-sizing: border-box;
+        /* padding: 70px; */
+        background-color: aqua;
+        height: 600px;
+}
+
+.banner33{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: tomato;
+    flex-direction: column;
+    box-sizing: border-box;
+
+}
+
+.banner34{
+    padding: 0px;
+}
+
+.banner35{
+    
+    color: #9a7666;
+    /* gap: 20px 0px; */
+
+}
+
+.banner36{
+    font-size: 70px;
+    padding: 0px;
+}
+
+.banner37{
+    width: 100%;
+    height: 474px;
+    background-color: goldenrod;
+    background-image: url(./rasel-footer.png);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.banner38{
+    position: absolute;
+    font-size: 50px;
+    top: 20%;
+    height: 50%;
+    width: 52%;
+    right: 20%;
+    color: white;
+}
+
+.banner39{
+    position: absolute;
+    height: 50px;
+    width: 150px;
+    bottom: 28%;
+    left: 42%;
+    font-size: 20px;
+    color: #9a7666;
+}
+
+.banner40{
+    height: 336px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(223, 218, 218);
+    padding: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top:0;
+}
+
+.banner41{
+    height: 40%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-}
-
-.logo{
-    justify-content: center;
-    display: flex;
-    text-decoration: none;
+    gap: 60px;
+    top: 40px;
     list-style-type: none;
-    gap: 30px;
-    margin: 10px;
-    padding-right: 20px;
+    color: black;
     text-transform: uppercase;
-    color: red;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
-
+    top: 40%;
+    padding: 0 40px;
 }
 
-.logo1{
-    text-decoration: none;
+
+.heading1{
+    font-size: 56px;
+    text-align: center;
 }
 
-.nav-bar{
-    position: relative;
-    background-size: cover;
-    height: 350px;
+.contact {
     width: 100%;
-    background-image: url(logo1.png);
-}
-
-.nav-bar1 {
-    position: absolute;
-    background-color: black;
-    bottom: 0px;
-    right: 0px;
-    color: white;
-    width: 391px;
-    height: 80px;
-    font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-
-.nav-1{
+    height: 700px;
+    gap: 64px;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
-.page1{
+.contact-head {
+    width: 480px;
+    height: 500px;
+    gap: 20px;
+    align-items: center;
+    margin: auto 0;
+}
+
+.contact-head-text {
+    margin: 0 auto;
+}
+
+.contact-form {
+    gap: 10px;
+}
+
+.frist-name {
+    height: 40px;
+    width: 140px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 42px;
+}
+
+.last-name {
+    height: 40px;
+    width: 140px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+.email {
+    height: 40px;
+    width: 480px;
+    gap: 60px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.teliphone {
+    height: 40px;
+    width: 100%;
+    gap: 60px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.text {
+    height: 150px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.submit {
     height: 50px;
     width: 200px;
-    background-color: green;
-    margin-top: 30px;
-    color: white;
-    border-radius: 10px;
-    text-transform: uppercase;
-    margin-bottom: 20px
-}
-
-#page5{
-    height: auto;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-flow: row wrap;
-}
-
-.page4{
-    background-image: url(./rasle.jpg);
-    background-size: cover;
-    background-position: center;
-    box-shadow: 4px 6px 10px gray;
-    box-sizing: border-box;
-    height: 334px;
-    width: 214px;
-    background-color: aqua;
-    margin: 25px;
-    display: flex;
-    justify-content: center;
-    align-items:end;
-}
-
-.page3{
-    background-size: cover;
-
-}
-
-.page2{
-    font-size: 20px;
-    font-weight: 600;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-    padding-bottom: 2px;
-    padding-left: 5%;
-
-}
-
-.rasel{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.rasel-1{
-        height: 50px;
-        width: 200px;
-        background-color: green;
-        margin-top: 30px;
-        color: white;
-        border-radius: 10px;
-        text-transform: uppercase;
-        margin-bottom: 20px
-}
-
-.footer{
-    position: relative;
-    height: 250px;
-    width: 100vw;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    background-color: gray;
-}
-
-.footer-text{
-    box-shadow: 3px 5px 10px gray;
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    padding-right: 50px;
-}
-
-.footer-page1{
-    position: absolute;
-    left: 10px;
-    top: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
-    font-size: 32px;
-    padding: 0px 20px;
-}
-
-.footer-text1{
-    position: absolute;
-    left:0px;
-    top: 70px;
-    padding: 0px 30px;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.footer-page2{
-    position: absolute;
-    left: 0px;
-    top: 95px;
-    padding: 0px 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-}
-
-.footer-page3{
-    position: absolute;
-    left: 0px;
-    top: 125px;
-    padding: 0px 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-}
-
-.footer-page4{
-    position: absolute;
-    left: 0px;
-    top: 175px;
-    padding: 0px 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    
-}
-
-.footer-page5{
-    position: absolute;
-    height: auto;
-    width: 100vw;
-    
-}
-
-.footer-page6{
-    position: absolute;
-    left: 35%;
-    bottom: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 50%;
+    transform: translate(-50%);
 }
